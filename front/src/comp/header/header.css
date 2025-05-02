@@ -1,0 +1,62 @@
+.app-header {
+    width: 90%;
+    height: 100px;
+    padding: 0% 5%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(114, 33, 87);
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.app-header a{
+    color: rgb(255, 255, 255);
+}
+
+.app-header :hover{
+    color: #d0ff00;
+}
+
+.app-header .logo{
+    display: flex;
+}
+.app-header .logo img{
+    width: 80px;
+}
+.app-header .account{
+    display: flex;
+    font-size: 80px;
+}
+
+
+.app-header .navigation{
+    width: 50%;
+}
+
+.app-header .navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-resolution: 150dpi) {
+    .app-header{
+        height: 150px;
+    }
+    .app-header .navigation{
+        width: 100%;
+        font-size: 20px;
+        order: 3;
+    }
+    .app-header .logo img{
+        width: 50px;
+    }
+    .app-header .account i{
+        font-size: 50px;
+    }
+
+}
+
